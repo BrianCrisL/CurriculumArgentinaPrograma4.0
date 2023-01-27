@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Merriweather',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:white;
+}
+.contenido{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr 0fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.contenido .LadoIzquierdo{
+    position: relative;
+    background: #55abc7;
+    padding: 40px;
+}
+.TextoPerfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff
+}
+.TextoPerfil img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.TextoPerfil h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.InfoContacto{
+    padding-top: 40px;
+}
+.titulo{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.InfoContacto ul{
+    position: relative;
+}
+.InfoContacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.InfoContacto ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: #fff
+}
+.InfoContacto ul li span{
+    color:  black
+}
+.InfoContacto.Educacion li{
+    margin-bottom: 15px;
+}
+.InfoContacto.Educacion h5{
+    color: black;
+    font-weight: 500;
+}
+.InfoContacto.Educacion h4:nth-child(2){
+    color: black;
+    font-weight: 500;
+}
+.InfoContacto.Educacion h4{
+    color: black;
+    font-weight: 300;
+}
+.contenido .Centro{
+    position: relative;
+    background: #BCE8F9;
+    padding: 40px;
+}
+.InfoSobreMi{
+    margin-bottom: 50px;
+}
+.InfoSobreMi:last-child{
+    margin-bottom: 0;
+}
+.TituloSobreMi{
+    color:  black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff
+}
+p{
+    color: black;
+}
+.Experiencia .TituloExperiencia{
+    color:  #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff
+}
+.Experiencia .caja{
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.Experiencia .caja .TituloPeli,.Experiencia .caja .Ficha{
+    min-width: 150px;
+}
+.Experiencia .caja .TituloPeli h4,.Experiencia .caja .Ficha h5{
+    margin-top: 2px;
+    text-transform: initial;
+    font-weight: 500;
+}
+.Experiencia .caja .Ficha h4{
+    margin-top: 2px;
+    text-transform: initial;
+    font-weight: 800; 
+}
+.contenido .LadoDerecho{
+    position: fixed;
+    background: #fff;
+    padding: 5px;
+    margin-left: 1000px;
+}
+.contenido .BotonRojo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    color: #900;
+    border-radius: 50%;
+    background: #900;
+    border:2px solid #000;
+    margin-top: 5px;
+}
+.contenido .BotonAzul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    color: #55abc7;
+    border-radius: 50%;
+    background: #55abc7;
+    border:2px solid #000;
+    margin-top: 5px;
+}
+.contenido .BotonVerde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    color: #065300;
+    border-radius: 50%;
+    background: #065300;
+    border:2px solid #000;
+    margin-top: 5px;
+}
+.contenido .BotonRosado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    color: #a30872;
+    border-radius: 50%;
+    background: #a30872;
+    border:2px solid #000;
+    margin-top: 5px;
+}
